@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 768px){
+  section{
+    width: 100%;
+  }
+
+  header{
+    width: 100%;
+    border: 1px solid black;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+  }
+  ul{
+    margin: 0 0 15px 15px;
+    padding-top: 50px;
+  }
+  .mainContainer{
+    width: 100%;
+    height: 812px;
+    border: 1px solid black;
+    margin: auto;
+  }
+  .event{
+    width: 80%;
+    height: 80%;
+    margin-left: 36px;
+    margin-top: 30px;
+    border: 1px solid black;
+  }
+  .mainContainer2{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+  }
+}

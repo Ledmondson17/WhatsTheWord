@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+@media only screen and (max-width: 768px){
+  section{
+    width: 100%;
+  }
+  p{
+    margin:0;
+  }
+  h1,h3{
+    margin:0;
+  }
+  .mainContainer{
+    height: 812px;
+    border: 1px solid black;
+  }
+  .top{
+    height: 50%;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 4em;
+  }
+  .bottom{
+    height: 50%;
+    border: 1px solid black;
+    text-align: center;
+  }
+  .header{
+    margin-top: 70px;
+  }
+  .login{
+    text-align: left;
+    margin-left: 40%;
+  }
+  .form{
+    margin-top: 100px;
+    padding-right: 140px;
+  }
+  input{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+}
