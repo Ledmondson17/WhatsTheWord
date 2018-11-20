@@ -5,6 +5,8 @@ html,body{
   margin: 0;
   padding: 0;
   font-size: 15px;
+  background-color: black;
+  color: #af8300;
 }
 
 @media only screen and (max-width: 768px){
@@ -19,13 +21,16 @@ html,body{
     text-align: center;
   }
   ul{
-    margin: 0 0 15px 15px;
-    padding-top: 50px;
+    margin:0;
+    padding:0;
+  }
+  li{
+    list-style: none;
+    margin: 7px 0 0 0;
   }
   .mainContainer{
     width: 100%;
     height: 812px;
-    border: 1px solid black;
     margin: auto;
   }
   .event{
@@ -33,11 +38,24 @@ html,body{
     height: 80%;
     margin-left: 36px;
     margin-top: 30px;
-    border: 1px solid black;
+  }
+  .description{
+    width: 100%;
+    height: 50%;
   }
   .mainContainer2{
     width: 100%;
     height: 50%;
-    border: 1px solid black;
+  }
+  .event{
+    background-image: url("https://moth.imgix.net/71463e54-d355-4404-f34cb451b326.png?dpr=2&w=400&fm=jpg&fit=crop&q=50");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .category{
+    font-family: 'Fontdiner Swanky', cursive;
+  }
+  .value{
+    color: white;
   }
 }

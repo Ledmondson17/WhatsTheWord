@@ -5,7 +5,9 @@ html,body{
   margin: 0;
   padding: 0;
   font-size: 15px;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Fontdiner Swanky', cursive;
+  background-color: black;
+  color: #af8300;
 }
 
 @media only screen and (max-width: 768px){
@@ -20,17 +22,14 @@ html,body{
   }
   .mainContainer{
     height: 812px;
-    border: 1px solid black;
   }
   .top{
     height: 50%;
-    border: 1px solid black;
     text-align: center;
     font-size: 4em;
   }
   .bottom{
     height: 50%;
-    border: 1px solid black;
     text-align: center;
   }
   .header{
